@@ -26,7 +26,7 @@
               <ul class="right hide-on-med-and-down">
                 <li><a style="color: #F2EAD0;" href="./index.html">Home</a></li>
                 <li><a style="color: #F2EAD0;" href="./WhoAmI.html">About Me</a></li>
-                <li><a class="dropdown-trigger" style="color: #F2EAD0;" id="searchPlanet" data-target="planet-dropdown" href="./searchpage.html">My Portfolio</a></li>
+                <li><a class="dropdown-trigger" style="color: #F2EAD0;" id="searchPlanet" data-target="planet-dropdown" href="./portfolio.html">My Portfolio</a></li>
                 <li><a style="color: #F2EAD0;" href="./contact.html">Contact</a></li>
               </ul>
     </nav>
@@ -35,7 +35,7 @@
 <ul class="sidenav" id="mobile-demo">
     <li><a href="./index.html">Home</a></li>
     <li><a href="./WhoAmI.html">About Me</a></li>
-    <li><a href="./searchpage.html">My Portfolio</a></li>
+    <li><a href="./portfolio.html">My Portfolio</a></li>
     <li><a href="./contact.html">Contact</a></li>
   </ul>
 </div>
@@ -56,7 +56,7 @@
       <!-- <h2>Second Panel</h2>
       <p class="white-text">This is your second panel</p> -->
       <div class="carousel-fixed-item center">
-        <a id="mercury-button"class="btn waves-effect white grey-text darken-text-2">Project 1: Solar System Navigator</a>
+        <a href="./portfolio.html" class="btn waves-effect white grey-text darken-text-2">Project 1: Solar System Navigator</a>
       </div>
     </div>
     <div class="carousel-item black white-text" href="#three!">
@@ -64,29 +64,27 @@
       <!-- <h2>Third Panel</h2>
       <p class="white-text">This is your third panel</p> -->
       <div class="carousel-fixed-item center">
-        <a id="venus-button" class="btn waves-effect white grey-text darken-text-2">Project 2: Weather Dashboard </a>
+        <a href="./portfolio.html" class="btn waves-effect white grey-text darken-text-2">Project 2: Weather Dashboard </a>
       </div>
     </div>
     <div class="carousel-item black white-text" href="#four!">
       <img src="./Scheduler.jpg" style="max-width:100%">
-      <!-- <h2>Fourth Panel</h2>
       <p class="white-text">This is your fourth panel</p> -->
       <div class="carousel-fixed-item center">
-        <a id="earth-button" class="btn waves-effect white grey-text darken-text-2">Project 3: Daily Planner</a>
+        <a href="./portfolio.html" class="btn waves-effect white grey-text darken-text-2">Project 3: Daily Planner</a>
       </div>
     </div>
 </div>
 <!-- Drop down navigation -->
-<ul id="planet-dropdown" class="dropdown-content planet">
-  <li style="text-align: center;">
-    <input type="input" id="planetInput" style="width: 70%; font-size: 16px; border-color: #CCCCCC;"/>
-    <i class="material-icons" style="font-size: 16px; display:inline-flex;" id="searchBtn">search</i>
-    <p class="errMsg" style="color:#c62828; display: none">Error: Invalid Planet Name</p>
-  </li>
-  <li class="divider" tabindex="-1"></li>
-  <li class="placeholder" style="text-align: center;"><p style="color: #999999">No Search History Found</p></li>
-</ul>
-</div>
+<ul id="dropdown" class="dropdown-content">
+    <li style="text-align: center;">
+      <input type="input" style="width: 70%; font-size: 16px; border-color: #CCCCCC;"/>
+      <i class="material-icons" style="font-size: 16px; display:inline-flex;" id="searchBtn">search</i>
+    </li>
+    <li class="divider" tabindex="-1"></li>
+    <li class="placeholder" style="text-align: center;"></li>
+  </ul>
+  </div>
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
   </script>

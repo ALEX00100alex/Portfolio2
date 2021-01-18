@@ -24,23 +24,23 @@
   <!-- Navigation Bar -->
   <div class="navbar">
     <nav class="nav-fixed">
-            <div class="nav-wrapper">
-              <!-- <a class="brand-logo"><i class="material-icons" style="font-size: 50px; color: #F2EAD0;">language</i></a> -->
-              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons" style="color: #F2EAD0;">menu</i></a>
-              <ul class="right hide-on-med-and-down">
-                <li><a style="color: #F2EAD0;" href="./index.html">Home</a></li>
-                <li><a style="color: #F2EAD0;" href="https://www.nasa.gov/">About Me</a></li>
-                <li><a class="dropdown-trigger" style="color: #F2EAD0;" id="searchPlanet" data-target="planet-dropdown" href="./searchpage.html">My Portfolio</a></li>
-                <li><a style="color: #F2EAD0;" href="https://www.nasa.gov/">Contact</a></li>
-              </ul>
-    </nav>
+      <div class="nav-wrapper">
+        <!-- <a class="brand-logo"><i class="material-icons" style="font-size: 50px; color: #F2EAD0;">language</i></a> -->
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons" style="color: #F2EAD0;">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a style="color: #F2EAD0;" href="./index.html">Home</a></li>
+          <li><a style="color: #F2EAD0;" href="./WhoAmI.html">About Me</a></li>
+          <li><a class="dropdown-trigger" style="color: #F2EAD0;" href="./portfolio.html">My Portfolio</a></li>
+          <li><a style="color: #F2EAD0;" href="./contact.html">Contact</a></li>
+        </ul>
+</nav>
 </div>
 <!-- For collapsible/small screen drop down -->
 <ul class="sidenav" id="mobile-demo">
     <li><a href="./index.html">Home</a></li>
     <li><a href="./index.html">About Me</a></li>
-    <li><a href="./searchpage.html">My Portfolio</a></li>
-    <li><a href="https://www.nasa.gov/">Contact</a></li>
+    <li><a href="./portfolio.html">My Portfolio</a></li>
+    <li><a href="./contact.html">Contact</a></li>
   </ul>
 </div>
 <div class="container">
@@ -53,28 +53,33 @@
       <div class="card-header">About Me</div>
       <figure class="card-body">
         <img class=float-left
-          src="https://media-exp1.licdn.com/dms/image/C5603AQEnD0TCB8rkIQ/profile-displayphoto-shrink_200_200/0?e=1610582400&v=beta&t=oo1TNOsOgKfYX202j9EAu0SLOYJAtMgwc8miVoKkYrM"
-          alt="My Pic">
-          <p class="card-text">I am a management professional with extensive experience driving operational
-            excellence in the health care and retail sectors. Throughout my career, I have demonstrated
-            success in
-            building relationships and trust across organizations while maintaining focus on achieving
-            superior
-            growth and boosting bottom-line profitability. I have an extensive background in health care and
+          src="./assets/images/my pic.png" style = "max-height: 20rem" alt="My Pic">
+          <p class="card-text">I am an innovative full stack software developer offering experience in the entire 
+            software lifecycle. I have been trained in advanced development methodologies, tools and 
+            processes. I pride myself in being able to analyze code and engineer well-researched, cost-effective and responsive solutions. </p>  
+          <p> My technical toolkit includes JavaScript, SQL, JQuery, CSS and HTML </p> 
+           <p> I have an extensive background in health care and
             retail operations, strategic product development, big data analytics and using cutting-edge
             technology
             to transform the customer experience. Possessing strong communication and presentation skills, I
             am a
             passionate, self-motivated and hands-on leader whose greatest attribute is the ability to develop
             and
-            motivate high performing teams.</p>
-          <p>I am currently working in the Commercial Business Products department of Regence Blue Cross Blue
-            Shield of Oregon. My role is to work with our third party vendors to bring innovative disease
-            state
-            management solutions to our ASO and fully insured health plan members.</p>
+            motivate high performing teams. I am currently working in the Commercial Business Products department of Regence Blue Cross Blue
+            Shield of Oregon. </p>
             <a href="https://www.linkedin.com/in/michael-m-alexander/" class="fa fa-linkedin"></a>
-            <a href="https://github.com/ALEX00100alex" class="fa fa-github"></a>
+            <a href="https://github.com/ALEX00100alex" class="fa fa-github"></a> <br>
+            <a href="./M Alexander resume.pdf">DOWNLOAD MY RESUME</a>
     </div>
+  </div>
+  <ul id="dropdown" class="dropdown-content">
+    <li style="text-align: center;">
+      <input type="input" style="width: 70%; font-size: 16px; border-color: #CCCCCC;"/>
+      <i class="material-icons" style="font-size: 16px; display:inline-flex;" id="searchBtn">search</i>
+    </li>
+    <li class="divider" tabindex="-1"></li>
+    <li class="placeholder" style="text-align: center;"></li>
+  </ul>
   </div>
    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
    </script>
